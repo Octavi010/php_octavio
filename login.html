@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+
+
+    <div id="login-container">
+        <form id="login-form" action="comprobar_acceso.php" method="post">
+            <h1>Control de Acceso</h1>
+            <br><br>
+            <label for="employee-no">Usuario:</label>
+            <input type="text" name="nombre_user" id="apellidos" placeholder="Escribe tu usuario">
+            <br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="pwd" placeholder="Escribe tu contraseña">
+            <br><br>
+            <button type="submit" name="guardar" id="hello-world-btn">Iniciar Sesión </button>
+            <p>¿No tienes una cuenta?</p>   
+            <a href="./formulario1.html">Regístrate Gratis</a>
+        </form>
+    </div>
+    
+
+</body>
+</html>
